@@ -134,3 +134,17 @@ I have a little experience in web development, my learning portfolio is below:
 | :---: | :---: | :---: |
 | [Best Coffee](http://end407.byethost7.com/olders/jscoffee/jscoffee.html) | [Pizza-Shop](http://end407.byethost7.com/olders/cardclass/cardclass.html) | [In Japan](http://end407.byethost7.com/injapan/injapan.html/) |
 | [GitHub](https://github.com/junproger/jscoffee) | [GitHub](https://github.com/junproger/pizzashop) | [GitHub](https://github.com/junproger/injapan) |
+
+## Education studies
+
+- The Rolling Scopes School: JavaScript/Front-end Course, now;
+
+- The "Professional" Education Center: modern frontend development, 2021;
+
+- Technology and Management State University: higher economic education, 2014;
+
+- Academy of the Corporate Systems: linux administration basics, 2008;
+
+## English levels
+
+Pre-intermediate/A2
