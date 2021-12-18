@@ -137,7 +137,7 @@ I have a little experience in web development, my learning portfolio is below:
 
 ## Education studies
 
-- The Rolling Scopes School: JavaScript/Front-end Course, now;
+- **The Rolling Scopes School: JavaScript/Front-end Course, now;**
 
 - The "Professional" Education Center: modern frontend development, 2021;
 
