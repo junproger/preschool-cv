@@ -132,7 +132,7 @@ I have a little experience in web development, my learning portfolio is below:
 
 | ![Best Coffee](./assets/images/bestcoffee.jpg) | ![Pizza-Shop](./assets/images/pizzashop.jpg) | ![In Japan](./assets/images/injapan.jpg) |
 | :---: | :---: | :---: |
-| [Best Coffee](http://end407.byethost7.com/olders/jscoffee/jscoffee.html) | [Pizza-Shop](http://end407.byethost7.com/olders/cardclass/cardclass.html) | [In Japan](http://end407.byethost7.com/injapan/injapan.html/) |
+| [Best Coffee](http://end407.byethost7.com/olders/jscoffee/jscoffee.html) | [Pizza-Shop](http://end407.byethost7.com/olders/cardclass/cardclass.html) | [In Japan](http://end407.byethost7.com/injapan/injapan.html) |
 | [GitHub](https://github.com/junproger/jscoffee) | [GitHub](https://github.com/junproger/pizzashop) | [GitHub](https://github.com/junproger/injapan) |
 
 ## Education studies
