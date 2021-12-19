@@ -26,17 +26,17 @@
 
 ## My Skills
 
-1. ```GNU/LINUX``` &#x26A1; &#x26A1; &#x26A1;
+1. ```GNU/LINUX``` &star; &star; &star;
 
-2. ```GIT + MKDW``` &#x26A1; &#x26A1; &#x26A1; &#x26A1;
+2. ```GIT + MKDW``` &star; &star; &star; &star;
 
-3. ```HTML + CSS``` &#x26A1; &#x26A1; &#x26A1; &#x26A1; &#x26A1;
+3. ```HTML + CSS``` &star; &star; &star; &star; &star;
 
-4. ```JS + JQUERY``` &#x26A1; &#x26A1; &#x26A1;
+4. ```JS + JQUERY``` &star; &star; &star;
 
-5. ```AJAX + JSON``` &#x26A1; &#x26A1; &#x26A1;
+5. ```AJAX + JSON``` &star; &star; &star;
 
-6. ```PHP + MYSQL``` &#x26A1; &#x26A1;
+6. ```PHP + MYSQL``` &star; &star;
 
 ## Code Examples
 
