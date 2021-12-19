@@ -26,17 +26,17 @@
 
 ## My Skills
 
-1. ```GNU/LINUX``` U+26A1; U+26A1; U+26A1;
+1. ```GNU/LINUX``` &#x26A1; &#x26A1; &#x26A1;
 
-2. ```GIT + MKDW``` :fire: :fire: :fire: :fire:
+2. ```GIT + MKDW``` &#x26A1; &#x26A1; &#x26A1; &#x26A1;
 
-3. ```HTML + CSS``` :fire: :fire: :fire: :fire: :fire:
+3. ```HTML + CSS``` &#x26A1; &#x26A1; &#x26A1; &#x26A1; &#x26A1;
 
-4. ```JS + JQUERY``` :fire: :fire: :fire:
+4. ```JS + JQUERY``` &#x26A1; &#x26A1; &#x26A1;
 
-5. ```AJAX + JSON``` :fire: :fire::fire:
+5. ```AJAX + JSON``` &#x26A1; &#x26A1; &#x26A1;
 
-6. ```PHP + MYSQL``` :fire: :fire:
+6. ```PHP + MYSQL``` &#x26A1; &#x26A1;
 
 ## Code Examples
 
