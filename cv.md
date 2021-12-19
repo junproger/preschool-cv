@@ -26,7 +26,7 @@
 
 ## My Skills
 
-1. ```GNU/LINUX``` :fire: :fire: :fire:
+1. ```GNU/LINUX``` U+26A1; U+26A1; U+26A1;
 
 2. ```GIT + MKDW``` :fire: :fire: :fire: :fire:
 
