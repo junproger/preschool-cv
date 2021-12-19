@@ -20,23 +20,23 @@
 
 ## About Me
 
-> I have a college degree in economics and worked in Internet marketing for a while. Web development interested me as a hobby at the time. But the moment came when I saw more opportunities in a web development. A wise man once told me that: "people can to write code — *the code can break down the system*". Then I decided to become a web developer and started studying at RS School.
+> Hello! I have a college degree in economics and worked in Internet marketing for a while. Web development interested me as a hobby at the time. But the moment came when I saw more opportunities in a web development. A wise man once told me that: "people can to write code — *the code can break down the system*". Then I decided to become a web developer and started studying at RS School.
 >
 > **Welcome to Web Development with RS School!**
 
 ## My Skills
 
-1. ```GNU/LINUX```
+1. ```GNU/LINUX``` :fire: :fire: :fire:
 
-2. ```GIT + MKDW```
+2. ```GIT + MKDW``` :fire: :fire: :fire: :fire:
 
-3. ```HTML + CSS```
+3. ```HTML + CSS``` :fire: :fire: :fire: :fire: :fire:
 
-4. ```JS + JQUERY```
+4. ```JS + JQUERY``` :fire: :fire: :fire:
 
-5. ```AJAX + JSON```
+5. ```AJAX + JSON``` :fire: :fire::fire:
 
-6. ```PHP + MYSQL```
+6. ```PHP + MYSQL``` :fire: :fire:
 
 ## Code Examples
 
