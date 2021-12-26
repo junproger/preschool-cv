@@ -52,3 +52,11 @@ html {
         height: 136px;
         border: 1px dotted dimgrey;
     }
+    .subtitle-block {
+        order: 4;
+        flex: 0 1 auto;
+        padding: 15px 25px;
+        color: dimgrey;
+        font-size: 1.2rem;
+        text-align: center;
+    }
