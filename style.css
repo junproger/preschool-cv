@@ -1,1 +1,29 @@
 /* css for jun proger cv */
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+       -moz-box-sizing: inherit;
+            box-sizing: inherit;
+    }
+    html,
+    head,
+    body,
+    main {
+        width: 100%;
+        background: #111;
+        color: white;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .block-wrapper {
+        border: 1px dotted grey;
+        background: black;
+        max-width: 960px;
+        height: 960px;
+        margin: 0 auto;
+    }
