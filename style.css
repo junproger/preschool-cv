@@ -27,3 +27,28 @@ html {
         height: 960px;
         margin: 0 auto;
     }
+    .flex-footer {
+        display:flex;
+        background: #031133;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 15px;
+    }
+    .rs-logo-block {
+        order: 1;
+        width: 238px;
+        height: 136px;
+        border: 1px dotted dimgrey;
+    }
+    .cv-logo-block {
+        order: 2;
+        width: 238px;
+        height: 136px;
+        border: 1px dotted dimgrey;
+    }
+    .gh-logo-block {
+        order: 3;
+        width: 238px;
+        height: 136px;
+        border: 1px dotted dimgrey;
+    }
