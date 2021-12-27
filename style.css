@@ -31,30 +31,34 @@ html {
         display:flex;
         background: #031133;
         flex-flow: row wrap;
+        align-items: flex-start;
         justify-content: space-around;
         gap: 15px;
     }
     .rs-logo-block {
         order: 1;
         width: 238px;
-        height: 136px;
-        border: 1px dotted dimgrey;
     }
     .cv-logo-block {
         order: 2;
         width: 238px;
-        height: 136px;
-        border: 1px dotted dimgrey;
     }
     .gh-logo-block {
         order: 3;
         width: 238px;
-        height: 136px;
-        border: 1px dotted dimgrey;
     }
     .subtitle-block {
         order: 4;
         flex: 0 1 auto;
+    }
+    .rs-logo-paragraph,
+    .cv-logo-paragraph,
+    .gh-logo-paragraph {
+        height: 136px;
+        margin-top: 16px;
+        border: 1px dotted dimgrey;
+    }
+    .subtitle-paragraph {
         padding: 15px 25px;
         color: dimgrey;
         font-size: 1.2rem;
