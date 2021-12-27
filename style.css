@@ -64,3 +64,19 @@ html {
         font-size: 1.2rem;
         text-align: center;
     }
+    @media (max-width: 762px) {
+        .cv-logo-block {
+            order: 3;
+            }
+        .gh-logo-block {
+            order: 2;
+            }
+    }
+    @media (max-width: 509px) {
+        .cv-logo-block {
+            order: 2;
+            }
+        .gh-logo-block {
+            order: 3;
+            }
+    }
