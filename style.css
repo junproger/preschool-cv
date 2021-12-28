@@ -120,6 +120,7 @@ h2 {
     flex-flow: row wrap;
     gap: 35px;
     padding-bottom: 15px;
+	text-align: center;
 }
 .flex-footer {
     display: flex;
