@@ -31,7 +31,7 @@ h2 {
 }
 .body-style {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #111;
     color: dimgrey;
 }
@@ -39,7 +39,7 @@ h2 {
     border: 1px dotted grey;
     background: black;
     max-width: 960px;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -53,14 +53,14 @@ h2 {
     background: #031133;
 }
 .header-menu ul {
-    gap: 5px;
+    gap: 10px;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-evenly;
 }
 .header-menu li {
-    padding: 5px;
+    padding: 10px;
     flex: 0 0 auto;
     background: #111;
     list-style: none;
@@ -96,6 +96,20 @@ h2 {
 }
 .main-content {
     flex: 1 0 auto;
+}
+.section-styles {
+    padding-top: 25px;
+    padding-left: 35px;
+}
+.lists-styles {
+    padding-left: 55px;
+    padding-bottom: 15px;
+}
+.texts-styles {
+    padding-bottom: 15px;
+}
+.descript-list {
+    color: goldenrod;
 }
 .flex-footer {
     display: flex;
