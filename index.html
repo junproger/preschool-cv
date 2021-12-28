@@ -107,8 +107,8 @@
 				<p>
 					<a href="https://codewars.com/kata/55a75e2d0803fea18f00009d">The code of Kata “Find the Slope” from CodeWars</a>
 				</p>
-				<div class="jscode">
-					<pre>
+				<div class="code-block">
+					<pre class="source-code">
 						<code data-language="javascript">
 function slope(points) {
 	let M = (points[3] - points[1])/(points[2] - points[0]);
@@ -119,6 +119,73 @@ function slope(points) {
 			}
 		return String(M);
 }
+						</code>
+					</pre>
+				</div>
+				<p>
+					<a href="http://end407.byethost7.com/olders/jscoffee/jscoffee.html">The code of change coins from the “Best Coffee Automat”</a>
+				</p>
+				<div class="code-block">
+					<pre class="source-code">
+						<code data-language="javascript">
+// change coins function
+function getChange() {
+    let sizeTrayChange = document.querySelector('#trayChange');
+    let coordTrayChange = sizeTrayChange.getBoundingClientRect();
+    let widthTrayChange = trayRandom(150, sizeTrayChange.offsetWidth);
+        console.log('widthTrayChange: ' + widthTrayChange);
+        if (outchanges &lt; 9) return false;
+            else if (outchanges >= 200) changecoin = 200;
+            else if (outchanges >= 100) changecoin = 100;
+            else if (outchanges >= 50) changecoin = 50;
+            else if (outchanges >= 10) changecoin = 10;
+            document.querySelector('#trayChange').innerHTML += `&lt;img alt="img" onclick='this.style.display="none";' style="left:${widthTrayChange}px; " class="coinChanges" src="${changecoin}_rubles.png"&gt;`;
+            console.log('changecoin = ' + changecoin);
+            outchanges -= changecoin; 
+                if (outchanges !== 0) {
+                getChange() 
+                }
+                    else {
+                    outchanges = 0;
+                    changecoin = 0;
+                    console.log(outchanges);
+                    console.log(changecoin);
+                    }
+}
+						</code>
+					</pre>
+				</div>
+				<p>
+					<a href="http://end407.byethost7.com/olders/cardclass/cardclass.html">The functions for a fast orders from the “Pizza Shop”</a>
+				</p>
+				<div class="code-block">
+					<pre class="source-code">
+						<code data-language="javascript">
+// Functions for a fast Orders
+function fastOrder(numCard) {
+document.querySelector('#exampleModalLabel').innerHTML = DATA[numCard-1].CARDTITLE;
+document.querySelector('#modalimage').src = DATA[numCard-1].CARDIMAG;
+document.querySelector('#modaltext').innerHTML = DATA[numCard-1].CARDTEXT;
+let inputorder = document.querySelector('#inputOrder');
+console.log('inputorder' + inputorder);
+inputorder.value = DATA[numCard-1].CARDTITLE;
+console.log('inputorder.value' + inputorder.value);
+}
+
+let fastform = document.querySelector('#fastform');
+let closemod = document.querySelector('#closemod');
+async function regForm(form) {
+	let response = await fetch("php/fastord.php", {
+								method: "POST",
+								body: new FormData(form),
+								});
+	let result = await response.text();
+	fastform.hidden = true;
+	closemod.hidden = false;
+	info.innerHTML = result;
+	console.log(FormData);
+	console.log(result);
+	}
 						</code>
 					</pre>
 				</div>

@@ -125,9 +125,12 @@ h2 {
     padding-bottom: 15px;
     text-align: center;
 }
-.jscode {
+.code-block {
     width: 95%;
     overflow-x: scroll;
+}
+.source-code {
+    background: #111;
 }
 .flex-footer {
     display: flex;
