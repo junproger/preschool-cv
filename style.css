@@ -109,11 +109,21 @@ h2 {
     padding-bottom: 15px;
 }
 .descript-list {
+    padding-left: 55px;
+    padding-bottom: 25px;
+}
+.description {
     color: goldenrod;
+}
+.my-projects {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 35px;
+    padding-bottom: 15px;
 }
 .flex-footer {
     display: flex;
-	padding-top: 25px;
+    padding-top: 25px;
     background: #031133;
     flex-flow: row wrap;
     align-items: flex-start;
@@ -152,6 +162,9 @@ h2 {
 }
 .small-class {
     color: darkgrey;
+}
+.rs-school {
+    white-space: nowrap;
 }
 @media (max-width: 762px) {
     .cv-logo-block {
