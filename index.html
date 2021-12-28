@@ -4,9 +4,295 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Sergey Tokarev (@junproger)">
+	<link rel="stylesheet" href="./assets/rainbow/rainbow.css">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Sergey Tokarev (@junproger)</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    
+<body class="body-style">
+	<div class="block-wrapper">
+		<header class="block-header">
+			<nav class="header-menu">
+				<ul>
+					<li><a href="#Contacts">Contacts</a></li>
+					<li><a href="#Aboutme">About me</a></li>
+					<li><a href="#Myskills">My skills</a></li>
+					<li><a href="#Codeexamples">Code examples</a></li>
+					<li><a href="#Myexperience">My experience</a></li>
+					<li><a href="#Educationstudies">Education studies</a></li>
+					<li><a href="#Englishlevels">English levels</a></li>
+				</ul>
+			</nav>
+			<div class="header-title">
+				<div class="title-avatars">
+					<p>
+						<img class="img-avatars" src="./assets/avatars/vaultboy.jpg" width="280" alt="Sergey Tokarev (@junproger)">
+					</p>
+				</div>
+				<div class="title-fullname">
+					<h1>
+						Sergey Tokarev <small>(@junproger)</small>
+					</h1>
+					<blockquote class="blockquote">
+						<p class="cite-paragraph"><em>«The Code can break down the System»</em></p>
+					</blockquote>
+				</div>
+			</div>
+		</header>
+		<main class="main-content">
+			<section class="section-styles">
+				<h2 id="Contacts">
+					Contacts:
+				</h2>
+				<ul class="lists-styles">
+				  <li>
+					<p>Github: <a href="https://github.com/junproger/">@junproger</a></p>
+				  </li>
+				  <li>
+					<p>Hackr.io: <a href="https://hackr.io/junproger">@junproger</a></p>
+				  </li>
+				  <li>
+					<p>Codewars: <a href="https://codewars.com/users/junproger">@junproger</a></p>
+				  </li>
+				  <li>
+					<p>Discord: Jun Proger #2774</p>
+				  </li>
+				  <li>
+					<p>E-mail: junproger@gmail.com</p>
+				  </li>
+				  <li>
+					<p>Website: <a href="http://end407.byethost7.com/">My Website</a></p>
+				  </li>
+				</ul>
+			</section>
+			<section class="section-styles">
+				<h2 id="Aboutme">
+					About me:
+				</h2>
+				<blockquote class="texts-styles">
+					<p>Greetings! I have a college degree in economics and worked in Internet marketing for a while. Web development interested me as a hobby at the time. But the moment came when I saw more opportunities in a web development. A wise man once told me that: “people can to write code — <em>the code can break down the system</em>”. Then I decided to become a web developer and started studying at RS School.</p>
+					<p><strong>Welcome to Web Development with RS School!</strong></p>
+				</blockquote>
+			</section>
+			<section class="section-styles">
+				<h2 id="Myskills">
+					My skills:
+				</h2>
+				<ol class="lists-styles">
+				  <li>
+					<p><strong><code>GNU/LINUX</code></strong> &#x2B50; &#x2B50; &#x2B50;</p>
+				  </li>
+				  <li>
+					<p><strong><code>GIT + MKDW</code></strong> &#x2B50; &#x2B50; &#x2B50; &#x2B50;</p>
+				  </li>
+				  <li>
+					<p><strong><code>HTML + CSS</code></strong> &#x2B50; &#x2B50; &#x2B50; &#x2B50; &#x2B50;</p>
+				  </li>
+				  <li>
+					<p><strong><code>JS + JQUERY</code></strong> &#x2B50; &#x2B50; &#x2B50;</p>
+				  </li>
+				  <li>
+					<p><strong><code>AJAX + JSON</code></strong> &#x2B50; &#x2B50; &#x2B50;</p>
+				  </li>
+				  <li>
+					<p><strong><code>PHP + MYSQL</code></strong> &#x2B50; &#x2B50;</p>
+				  </li>
+				</ol>
+			</section>
+			<section class="section-styles">
+				<h2 id="Codeexamples">
+					Code examples:
+				</h2>
+				<p>
+					<a href="https://codewars.com/kata/55a75e2d0803fea18f00009d">The code of Kata “Find the Slope” from CodeWars</a>
+				</p>
+				<div class="code-block">
+					<pre class="source-code">
+						<code data-language="javascript">
+function slope(points) {
+	let M = (points[3] - points[1])/(points[2] - points[0]);
+		if (isFinite(M) === false) {
+			M = undefined; 
+			} else {
+			M = Math.floor(M);
+			}
+		return String(M);
+}
+						</code>
+					</pre>
+				</div>
+				<p>
+					<a href="http://end407.byethost7.com/olders/jscoffee/jscoffee.html">The code of change coins from the “Best Coffee Automat”</a>
+				</p>
+				<div class="code-block">
+					<pre class="source-code">
+						<code data-language="javascript">
+// change coins function
+function getChange() {
+    let sizeTrayChange = document.querySelector('#trayChange');
+    let coordTrayChange = sizeTrayChange.getBoundingClientRect();
+    let widthTrayChange = trayRandom(150, sizeTrayChange.offsetWidth);
+        console.log('widthTrayChange: ' + widthTrayChange);
+        if (outchanges &lt; 9) return false;
+            else if (outchanges >= 200) changecoin = 200;
+            else if (outchanges >= 100) changecoin = 100;
+            else if (outchanges >= 50) changecoin = 50;
+            else if (outchanges >= 10) changecoin = 10;
+            document.querySelector('#trayChange').innerHTML += `&lt;img alt="img" onclick='this.style.display="none";' style="left:${widthTrayChange}px; " class="coinChanges" src="${changecoin}_rubles.png"&gt;`;
+            console.log('changecoin = ' + changecoin);
+            outchanges -= changecoin; 
+                if (outchanges !== 0) {
+                getChange() 
+                }
+                    else {
+                    outchanges = 0;
+                    changecoin = 0;
+                    console.log(outchanges);
+                    console.log(changecoin);
+                    }
+}
+						</code>
+					</pre>
+				</div>
+				<p>
+					<a href="http://end407.byethost7.com/olders/cardclass/cardclass.html">The functions for a fast orders from the “Pizza Shop”</a>
+				</p>
+				<div class="code-block">
+					<pre class="source-code">
+						<code data-language="javascript">
+// Functions for a fast Orders
+function fastOrder(numCard) {
+document.querySelector('#exampleModalLabel').innerHTML = DATA[numCard-1].CARDTITLE;
+document.querySelector('#modalimage').src = DATA[numCard-1].CARDIMAG;
+document.querySelector('#modaltext').innerHTML = DATA[numCard-1].CARDTEXT;
+let inputorder = document.querySelector('#inputOrder');
+console.log('inputorder' + inputorder);
+inputorder.value = DATA[numCard-1].CARDTITLE;
+console.log('inputorder.value' + inputorder.value);
+}
+
+let fastform = document.querySelector('#fastform');
+let closemod = document.querySelector('#closemod');
+async function regForm(form) {
+	let response = await fetch("php/fastord.php", {
+								method: "POST",
+								body: new FormData(form),
+								});
+	let result = await response.text();
+	fastform.hidden = true;
+	closemod.hidden = false;
+	info.innerHTML = result;
+	console.log(FormData);
+	console.log(result);
+	}
+						</code>
+					</pre>
+				</div>
+			</section>
+			<section class="section-styles">
+				<h2 id="Myexperience">
+					My experience:
+				</h2>
+				<p class="text-webdev">
+					I have a little experience in web development, my learning portfolio is below:
+				</p>
+				<div class="my-projects">
+					<div class="project-item">
+						<h3>
+							<a href="http://end407.byethost7.com/olders/jscoffee/jscoffee.html">Best Coffee</a>
+						</h3>
+						<p>
+							<img src="./assets/images/bestcoffee.jpg" alt="Best Coffee" />
+						</p>
+						<p>
+							<a href="https://github.com/junproger/jscoffee">Source Code</a>
+						</p>
+					</div>
+					<div class="project-item">
+						<h3>
+							<a href="http://end407.byethost7.com/olders/cardclass/cardclass.html">Pizza-Shop</a>
+						</h3>
+						<p>
+							<img src="./assets/images/pizzashop.jpg" alt="Pizza-Shop" />
+						</p>
+						<p>
+							<a href="https://github.com/junproger/pizzashop">Source Code</a>
+						</p>
+					</div>
+					<div class="project-item">
+						<h3>
+							<a href="http://end407.byethost7.com/injapan/injapan.html">In Japan</a>
+						</h3>
+						<p>
+							<img src="./assets/images/injapan.jpg" alt="In Japan" />
+						</p>
+						<p>
+							<a href="https://github.com/junproger/injapan">Source Code</a>
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="section-styles">
+				<h2 id="Educationstudies">
+					Education studies:
+				</h2>
+				<ul class="lists-styles">
+				  <li>
+					<p><strong>The Rolling Scopes School: JavaScript / Front-end Course, now;</strong></p>
+				  </li>
+				  <li>
+					<p>The “Professional” Education Center: modern frontend development, 2021;</p>
+				  </li>
+				  <li>
+					<p>Technology and Management State University: higher economic education, 2014;</p>
+				  </li>
+				  <li>
+					<p>Academy of the Corporate Systems: linux administration basics, 2008;</p>
+				  </li>
+				</ul>
+			</section>
+			<section class="section-styles">
+				<h2 id="Englishlevels">
+					English levels:
+				</h2>
+				<dl class="descript-list">
+					<dt>Reading / Writing</dt>
+					<dd class="description">Intermediate / B1</dd>
+					<dt>Listening / Speaking</dt>
+					<dd class="description">Pre-intermediate / A2</dd>
+				</dl>
+			</section>
+		</main>
+		<footer class="flex-footer">
+			<div class="rs-logo-block">
+				<p class="rs-logo-paragraph">
+					<a href="https://rs.school/js/" target="new">
+						<img src="./assets/logos/rs_school_js.svg" width="236" alt="RS School Logo">
+					</a>
+				</p>
+			</div>
+			<div class="cv-logo-block">
+				<p class="cv-logo-paragraph">
+					<a href="https://junproger.github.io/rsschool-cv/" target="new">
+						<img src="./assets/logos/junproger.png" width="236" alt="Jun Proger Logo">
+					</a>
+				</p>
+			</div>
+			<div class="gh-logo-block">
+				<p class="gh-logo-paragraph">
+					<a href="https://github.com/junproger/" target="new">
+						<img src="./assets/logos/GitHub_logo.png" width="236" alt="GitHub Logo">
+					</a>
+				</p>
+			</div>
+			<div class="subtitle-block">
+				<p class="subtitle-paragraph">
+					&copy; 2021 &mdash; 2022 Created by Sergey Tokarev <small class="small-class">(@junproger)</small> with JavaScript <strong>&lsaquo; / &rsaquo;</strong> Front-end course <span class="rs-school">of Rolling Scopes School</span>.
+				</p>
+			</div>
+		</footer>
+	</div>
+	<script src="./assets/rainbow/rainbow.js"></script>
 </body>
 </html>
