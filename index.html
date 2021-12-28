@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sergey Tokarev (@junproger)">
+	<link rel="stylesheet" href="./assets/rainbow/rainbow.css">
     <meta name="robots" content="noindex, nofollow">
     <title>Sergey Tokarev (@junproger)</title>
     <link rel="stylesheet" href="./style.css">
@@ -103,13 +104,30 @@
 				<h2 id="Codeexamples">
 					Code examples:
 				</h2>
-
+				<p>
+					<a href="https://codewars.com/kata/55a75e2d0803fea18f00009d">The code of Kata “Find the Slope” from CodeWars</a>
+				</p>
+				<div class="jscode">
+					<pre>
+						<code data-language="javascript">
+function slope(points) {
+	let M = (points[3] - points[1])/(points[2] - points[0]);
+		if (isFinite(M) === false) {
+			M = undefined; 
+			} else {
+			M = Math.floor(M);
+			}
+		return String(M);
+}
+						</code>
+					</pre>
+				</div>
 			</section>
 			<section class="section-styles">
 				<h2 id="Myexperience">
 					My experience:
 				</h2>
-				<p>
+				<p class="text-webdev">
 					I have a little experience in web development, my learning portfolio is below:
 				</p>
 				<div class="my-projects">
@@ -208,5 +226,6 @@
 			</div>
 		</footer>
 	</div>
+	<script src="./assets/rainbow/rainbow.js"></script>
 </body>
 </html>

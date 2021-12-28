@@ -115,12 +115,19 @@ h2 {
 .description {
     color: goldenrod;
 }
+.text-webdev {
+    width: 95%;
+}
 .my-projects {
     display: flex;
     flex-flow: row wrap;
     gap: 35px;
     padding-bottom: 15px;
-	text-align: center;
+    text-align: center;
+}
+.jscode {
+    width: 95%;
+    overflow-x: scroll;
 }
 .flex-footer {
     display: flex;
