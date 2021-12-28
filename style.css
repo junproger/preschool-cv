@@ -74,19 +74,25 @@ h2 {
     padding: 15px 20px 25px;
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
 }
 .title-avatars {
     flex: 1 0 auto;
 }
+.img-avatars {
+    border: 1px dotted dimgrey;
+}
 .title-fullname {
-    flex: 0 1 auto;
-    margin-left: 1%;
+    flex: 1 1 auto;
 }
 .blockquote {
     color: grey;
-    margin-left: 60px;
+    margin-left: 70px;
+}
+.cite-paragraph {
     padding: 0 25px;
-    border-left: 5px solid grey;
+    border-left: 5px solid dimgrey;
 }
 .main-content {
     flex: 1 0 auto;
