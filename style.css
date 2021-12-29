@@ -108,6 +108,9 @@ h2 {
 .texts-styles {
     padding-bottom: 15px;
 }
+.text-color {
+	color: grey;
+}
 .descript-list {
     padding-left: 55px;
     padding-bottom: 25px;
