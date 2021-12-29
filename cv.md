@@ -20,7 +20,7 @@
 
 ## About Me
 
-> Greetings! I have a college degree in economics and worked in Internet marketing for a while. Web development interested me as a hobby at the time. But the moment came when I saw more opportunities in a web development. A wise man once told me that: "people can to write code — *the code can break down the system*". Then I decided to become a web developer and started studying at RS School.
+> Greetings! I have a college degree in economics and worked in Internet marketing for a while. Web development interested me as a hobby at the time. But the moment came when I saw more opportunities in a web development. A wise man once told me that: "*a people can to write code — the code can break down the system*". Then I decided to become a web developer and started studying at RS School.
 >
 > **Welcome to Web Development with RS School!**
 
