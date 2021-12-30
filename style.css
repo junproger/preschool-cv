@@ -10,7 +10,7 @@ html {
             box-sizing: inherit;
 }
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 html,
 head,
@@ -65,10 +65,17 @@ h2 {
     background: #111;
     list-style: none;
     border-radius: 15px;
+    box-shadow: 0 0 3px grey;
 }
 .header-menu li a {
     color: darkgrey;
     text-decoration: none;
+}
+.header-menu li:hover {
+    background: #011;
+}
+.header-menu li a:hover {
+    color: lightgrey;
 }
 .header-title {
     padding: 15px 20px 25px;
@@ -85,6 +92,7 @@ h2 {
 }
 .title-fullname {
     flex: 1 1 auto;
+    text-shadow: black 1px 1px 2px;
 }
 .blockquote {
     color: grey;
@@ -101,6 +109,9 @@ h2 {
     padding-top: 25px;
     padding-left: 35px;
 }
+.section-styles h2 {
+    text-shadow: black 1px 1px 2px;
+}
 .lists-styles {
     padding-left: 55px;
     padding-bottom: 15px;
@@ -109,7 +120,7 @@ h2 {
     padding-bottom: 15px;
 }
 .text-color {
-	color: grey;
+    color: grey;
 }
 .descript-list {
     padding-left: 55px;
@@ -173,6 +184,7 @@ h2 {
     color: dimgrey;
     font-size: 1.2rem;
     text-align: center;
+    text-shadow: black 1px 1px 2px;
 }
 .small-class {
     color: darkgrey;
