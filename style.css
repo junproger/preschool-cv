@@ -33,7 +33,7 @@ h2 {
     width: 100%;
     min-height: 100vh;
     background: #111;
-    color: dimgrey;
+    color: grey;
 }
 .block-wrapper {
     border: 1px dotted grey;
@@ -95,7 +95,7 @@ h2 {
     text-shadow: black 1px 1px 2px;
 }
 .blockquote {
-    color: grey;
+    color: darkgrey;
     margin-left: 70px;
 }
 .cite-paragraph {
@@ -120,7 +120,7 @@ h2 {
     padding-bottom: 15px;
 }
 .text-color {
-    color: grey;
+    color: darkgrey;
 }
 .descript-list {
     padding-left: 55px;
@@ -181,13 +181,13 @@ h2 {
 }
 .subtitle-paragraph {
     padding: 15px 25px;
-    color: dimgrey;
+    color: grey;
     font-size: 1.2rem;
     text-align: center;
     text-shadow: black 1px 1px 2px;
 }
 .small-class {
-    color: darkgrey;
+    color: lightgrey;
 }
 .rs-school {
     white-space: nowrap;
