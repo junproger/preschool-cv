@@ -139,11 +139,11 @@ I have a little experience in web development, my learning portfolio is below:
 
 - **The Rolling Scopes School: JavaScript/Front-end Course, now;**
 
-- The "Professional" Education Center: modern frontend development, 2021;
+- The "Professional" Education Center: Modern Frontend Development, 2021;
 
-- Technology and Management State University: higher economic education, 2014;
+- Technology and Management State University: Economics and Management, 2014;
 
-- Academy of the Corporate Systems: linux administration basics, 2008;
+- Academy of the Corporate Systems: Linux Administration Basics, 2008;
 
 ## English levels
 
