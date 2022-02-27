@@ -1,5 +1,5 @@
-# rsschool-cv
+# preschool-cv
 
- - https://junproger.github.io/rsschool-cv/cv
+ - https://junproger.github.io/preschool-cv/cv
 
- - https://junproger.github.io/rsschool-cv/
+ - https://junproger.github.io/preschool-cv/
