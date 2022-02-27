@@ -1,9 +1,9 @@
-# rsschool-cv
+# preschool-cv
 
 Markdown & Git task
 
-https://junproger.github.io/rsschool-cv/cv
+https://junproger.github.io/preschool-cv/cv
 
 HTML, CSS & Git Basics task
 
-https://junproger.github.io/rsschool-cv/
+https://junproger.github.io/preschool-cv/
